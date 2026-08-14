@@ -1,6 +1,6 @@
 module github.com/aserto-dev/aserto-idp
 
-go 1.17
+go 1.25.0
 
 // replace github.com/aserto-dev/idp-plugin-sdk => ../idp-plugin-sdk
 
@@ -90,14 +90,13 @@ require (
 	github.com/subosito/gotenv v1.3.0 // indirect
 	github.com/ulikunitz/xz v0.5.10 // indirect
 	github.com/zricethezav/gitleaks/v8 v8.3.0 // indirect
-	golang.org/x/mod v0.6.0-dev.0.20220106191415-9b9b3d81d5e3 // indirect
-	golang.org/x/net v0.0.0-20220624214902-1bab6f366d9e // indirect
-	golang.org/x/sync v0.0.0-20220819030929-7fc1605a5dde // indirect
-	golang.org/x/sys v0.0.0-20220715151400-c0bba94af5f8 // indirect
-	golang.org/x/term v0.0.0-20210927222741-03fcf44c2211 // indirect
-	golang.org/x/text v0.3.7 // indirect
-	golang.org/x/tools v0.1.10 // indirect
-	golang.org/x/xerrors v0.0.0-20220517211312-f3a8303e98df // indirect
+	golang.org/x/mod v0.35.0 // indirect
+	golang.org/x/net v0.55.0 // indirect
+	golang.org/x/sync v0.20.0 // indirect
+	golang.org/x/sys v0.45.0 // indirect
+	golang.org/x/term v0.43.0 // indirect
+	golang.org/x/text v0.37.0 // indirect
+	golang.org/x/tools v0.44.0 // indirect
 	google.golang.org/genproto v0.0.0-20220902135211-223410557253 // indirect
 	gopkg.in/ini.v1 v1.66.4 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
