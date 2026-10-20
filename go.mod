@@ -1,6 +1,6 @@
 module github.com/aserto-dev/aserto-idp
 
-go 1.17
+go 1.24
 
 // replace github.com/aserto-dev/idp-plugin-sdk => ../idp-plugin-sdk
 
@@ -56,7 +56,7 @@ require (
 	github.com/hashicorp/yamux v0.0.0-20211028200310-0bc27b27de87 // indirect
 	github.com/imdario/mergo v0.3.12 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
-	github.com/klauspost/compress v1.15.4 // indirect
+	github.com/klauspost/compress v1.18.7 // indirect
 	github.com/kyokomi/emoji v2.2.4+incompatible // indirect
 	github.com/magiconair/properties v1.8.6 // indirect
 	github.com/mattn/go-colorable v0.1.12 // indirect
